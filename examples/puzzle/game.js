@@ -31,7 +31,7 @@ const tileColors =
     new Color(1,1,0),
     new Color(0,1,0),
     new Color(0,.6,1),
-    new Color(.6,0,1),
+    new Color(.6,0,1), 
     new Color(.5,.5,.5),
 ];
 const tileTypeCount = tileColors.length;
