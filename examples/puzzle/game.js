@@ -4,7 +4,7 @@
     - Uses a higher resolution texture
 */
 
-'use strict';
+'use strict'; 
 
 glOverlay = !isChrome; // fix slow rendering when not chrome
 pixelated = 0; // do not use pixelated rendering
