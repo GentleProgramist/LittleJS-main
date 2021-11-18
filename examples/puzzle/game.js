@@ -4,7 +4,7 @@
     - Uses a higher resolution texture
 */
 
-'use strict';
+'use strict'; 
 
 glOverlay = !isChrome; // fix slow rendering when not chrome
 pixelated = 0; // do not use pixelated rendering
@@ -31,7 +31,7 @@ const tileColors =
     new Color(1,1,0),
     new Color(0,1,0),
     new Color(0,.6,1),
-    new Color(.6,0,1),
+    new Color(.6,0,1), 
     new Color(.5,.5,.5),
 ];
 const tileTypeCount = tileColors.length;
@@ -41,7 +41,7 @@ const setTile = (pos, data) => level[pos.x + pos.y * levelSize.x] = data;
 
 ///////////////////////////////////////////////////////////////////////////////
 function gameInit()
-{
+{ 
     // setup canvas
     fixedWidth = 1920, fixedHeight = 1080; // 1080p
     mainCanvas.style.background = backgroundColor.rgba();
@@ -173,7 +173,7 @@ function gameUpdate()
 function gameUpdatePost()
 {
 
-}
+} 
 
 ///////////////////////////////////////////////////////////////////////////////
 function gameRender()
